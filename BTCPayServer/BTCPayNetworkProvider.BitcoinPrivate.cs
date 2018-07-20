@@ -18,7 +18,7 @@ namespace BTCPayServer
                 DefaultRateRules = new[]
                 {
                     "BTCP_X = BTCP_BTC * BTC_X",
-                    "BTCP_BTC = bitfinex(BTCP_BTC)",
+                    "BTCP_BTC = hitbtc(BTCP_BTC)",
                 },
                 CryptoImagePath = "imlegacy/btcp.svg",
                 LightningImagePath = "imlegacy/btcp-lightning.svg",
