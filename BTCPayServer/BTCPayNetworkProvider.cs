@@ -55,6 +55,7 @@ namespace BTCPayServer
             InitGroestlcoin();
             InitViacoin();
             //InitUfo();
+            InitBitcoinPrivate();
         }
 
         /// <summary>
